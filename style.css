@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: rgb(71, 85, 85);
+}
+
+
+.block_items {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+
+.block_1,
+.block_2,
+.block_3,
+.block_4,
+.block_5 {
+    width: 200px;
+    height: 200px;
+    background: white;
+    border: 1px solid black;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+
+.block_1>a {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    text-decoration: none;
+    color: black;
+}
+
+
+.block_2>a {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    text-decoration: none;
+    color: black;
+}
+
+
+.block_3>a {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    text-decoration: none;
+    color: black;
+}
+
+
+.block_4>a {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    text-decoration: none;
+    color: black;
+}
+
+
+.block_5>a {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    text-decoration: none;
+    color: black;
+}
+
+
+.form_item_1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* попап */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.8s ease 0s;
+}
+
+
+.popup:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup_area {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    left: 0;
+}
+
+
+.popup_body {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup_content {
+    max-width: 800px;
+    background-color: #ffff;
+    padding: 40px;
+    position: relative;
+}
+
+.popup_close {
+    position: absolute;
+    top: 5px;
+    left: 260px;
+    text-decoration: none;
+    color: black;
+}
+
+/* коентент в popupe */
+.block_1>h2 {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+
+.block_2>h2 {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+
+.block_3>h2 {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+
+.block_4>h2 {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+
+.block_5>h2 {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
