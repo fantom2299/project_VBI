@@ -9,7 +9,8 @@ body {
 }
 
 
-.block_items {
+.block_items,
+.block_items_2 {
     display: flex;
     justify-content: space-evenly;
     padding: 40px;
@@ -20,7 +21,12 @@ body {
 .block_2,
 .block_3,
 .block_4,
-.block_5 {
+.block_5,
+.block_6,
+.block_7,
+.block_8,
+.block_9,
+.block_10 {
     width: 200px;
     height: 200px;
     background: white;
@@ -67,6 +73,46 @@ body {
 
 
 .block_5>a {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    text-decoration: none;
+    color: black;
+}
+
+.block_6>a {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    text-decoration: none;
+    color: black;
+}
+
+.block_7>a {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    text-decoration: none;
+    color: black;
+}
+
+.block_8>a {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    text-decoration: none;
+    color: black;
+}
+
+.block_9>a {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    text-decoration: none;
+    color: black;
+}
+
+.block_10>a {
     position: absolute;
     top: 40%;
     left: 45%;
@@ -156,6 +202,36 @@ body {
 }
 
 .block_5>h2 {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+
+.block_6>h2 {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+
+.block_7>h2 {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+
+.block_8>h2 {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+
+.block_9>h2 {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+
+.block_10>h2 {
     position: absolute;
     top: 40%;
     left: 45%;
